@@ -35,4 +35,72 @@ cd IT23563650_ITPM_Assignment_01
 ```
 
 2. Install dependencies:
+```bash
+npm install
 ```
+
+This will install Playwright and all required dependencies specified in `package.json`.
+
+## 🧪 Running Tests
+
+Execute the following commands to run tests:
+
+### Run all tests
+```bash
+npx playwright test
+```
+
+### View test results
+```bash
+npx playwright show-report
+```
+
+## 📂 Project Structure
+
+```
+IT23563650_ITPM_Assignment_01/
+├── .github/              # GitHub configuration files
+├── tests/                # Test files directory
+├── .gitattributes        # Git attributes configuration
+├── .gitignore           # Git ignore rules
+├── package.json         # Project dependencies and scripts
+├── package-lock.json    # Locked versions of dependencies
+├── playwright.config.js # Playwright configuration
+└── README.md           # Project documentation
+```
+
+## ⚙️ Configuration
+
+The project uses `playwright.config.js` for test configuration including:
+- Browser settings
+- Test timeout configurations
+- Reporter settings
+- Base URL configuration
+
+## 📊 Test Reports
+
+After running tests, Playwright generates detailed HTML reports that can be viewed using:
+```bash
+npx playwright show-report
+```
+
+## 👤 Author
+
+**Wijerathna M. W. G. S. D.**  
+Student ID: IT23563650
+
+## 📄 License
+
+ISC
+
+## 🤝 Contributing
+
+This is an academic project for ITPM Assignment 01. 
+
+## 📞 Contact
+
+For any queries regarding this project, please contact through GitHub.
+
+---
+
+**Repository:** [IT23563650_ITPM_Assignment_01](https://github.com/samadhi-dewmini/IT23563650_ITPM_Assignment_01)
